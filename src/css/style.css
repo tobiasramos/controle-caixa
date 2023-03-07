@@ -81,6 +81,11 @@ h1 {
     margin-bottom: 10px;
 }
 
+.controls .movements .revenue,
+.controls .movements .expense {
+    margin-right: 10px;
+}
+
 .controls .movements .type label {
     display: block;
     margin-bottom: 10px;
@@ -105,6 +110,6 @@ h1 {
     background-color: #0889A3;
     border: none;
     margin-top: -35px;
-    margin-left: 210px;
+    margin-left: 250px;
     cursor: pointer;
 }
