@@ -79,6 +79,7 @@ h1 {
     border: 1px solid #7A869A;
     border-radius: 10px;
     margin-bottom: 10px;
+    padding: 5px;
 }
 
 .controls .movements .revenue,
