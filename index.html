@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,8 +10,49 @@
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/style.css">
 </head>
+
 <body>
-    
+    <div class="title">
+        <h1>CONTROLE DE CAIXA</h1>
+    </div>
+
+    <main>
+        <div class="controls">
+            <div class="movements">
+                <h2>Movimentações</h2>
+
+                <form>
+                    <label for="">Nome</label>
+                    <input type="text">
+
+                    <label for="">Data</label>
+                    <input type="date">
+
+                    <label for="">Observação(opcional)</label>
+                    <input type="text">
+
+                    <label for="">Tipo de movimentação</label>
+                    <input type="checkbox">Receita
+                    <input type="checkbox">Despesa
+
+                    <button>Adiconar</button>
+                </form>
+            </div>
+            <div>
+                <div class="title">
+                    <h2>Receitas e Despesas</h2>
+                    <span>Despesas</span>
+                    <span>Receitas</span>
+                </div>
+            </div>
+        </div>
+
+        <div>
+
+        </div>
+    </main>
+
     <script src="src/js/index.js"></script>
 </body>
+
 </html>
