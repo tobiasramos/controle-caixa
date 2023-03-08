@@ -43,24 +43,24 @@ h1 {
     font-size: 14px;
 }
 
-.controls .movements .nameDate {
+.controls .movements .amountDate {
     display: flex;
     padding: 5px;
     margin-bottom: 15px;
 }
 
-.controls .movements .nameDate .name {
+.controls .movements .amounteDate .amount {
     margin-right: 10px;
 }
 
-.controls .movements .nameDate .name label,
-.controls .movements .nameDate .date label {
+.controls .movements .amountDate .amount label,
+.controls .movements .amountDate .date label {
     display: block;
     margin-bottom: 5px;
 }
 
-.controls .movements .nameDate .name input,
-.controls .movements .nameDate .date input {
+.controls .movements .amountDate .amount input,
+.controls .movements .amountDate .date input {
     width: 189px;
     height: 42px;
     padding: 3px;
