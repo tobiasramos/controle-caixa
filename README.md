@@ -2,6 +2,6 @@
 ## Este projeto esta em fase de desenvolvimento
 
 ## Tecnologias utilizadas
- -HTML
- -CSS
- -JavaScript
+ - HTML
+ - CSS
+ - JavaScript
