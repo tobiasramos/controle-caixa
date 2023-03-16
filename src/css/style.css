@@ -118,3 +118,11 @@ h1, h2 {
     width: 1116px;
     background-color: #ECEEF6;
 }
+
+.blueRevenue {
+   color:#5932EA;
+}
+
+.vermExpense {
+    color: #EA3232;
+}
