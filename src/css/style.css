@@ -3,3 +3,11 @@
     justify-content: space-evenly;
     margin-top: 50px;
 }
+
+.movements {
+    display: block;
+    padding: 10px;
+    width: 458px;
+    height: 362px;
+    background-color: #ECEEF6;
+}
