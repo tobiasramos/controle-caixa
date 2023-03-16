@@ -11,3 +11,13 @@
     height: 362px;
     background-color: #ECEEF6;
 }
+
+.movements h2 {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.controls .movements label {
+    font-size: 14px;
+    font-weight: 600;
+}
