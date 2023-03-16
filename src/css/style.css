@@ -119,8 +119,14 @@ h1, h2 {
     background-color: #ECEEF6;
 }
 
+.exhibition td {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
 .blueRevenue {
-   color:#5932EA;
+    color: #5932EA;
 }
 
 .vermExpense {
