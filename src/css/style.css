@@ -38,3 +38,28 @@ h1, h2 {
     font-size: 14px;
     font-weight: 600;
 }
+
+.movements .amountDate {
+    display: flex;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.amountDate .amount {
+    margin-right: 10px;
+}
+
+.amountDate .amount label,
+.amountDate .date label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.amountDate .amount input,
+.amountDate .date input {
+    width: 189px;
+    height: 42px;
+    padding: 3px;
+    border: 1px solid #7A869A;
+    border-radius: 10px;
+}
