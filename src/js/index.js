@@ -17,9 +17,18 @@ btn_add.addEventListener("click", () => {
     let typeMovement = row.insertCell(3)
     let action = row.insertCell(4)
 
+    let validadeChecked
+
+    if (v_revenue.checked) {
+        validadeChecked = "Receita"
+    }
+    if(v_expense.checked) {
+        validadeChecked = "Despesa"
+    }
+
     amount.innerHTML = v_amount.value
     date.innerHTML = v_date.value
     observation.innerHTML = v_observation.value
-    typeMovement.innerHTML = v_amount.value
+    typeMovement.innerHTML = validadeChecked
     action.innerHTML = "Excluir"
 })
