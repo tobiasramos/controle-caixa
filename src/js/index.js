@@ -20,10 +20,10 @@ btn_add.addEventListener("click", () => {
     let validadeChecked
 
     if (v_revenue.checked) {
-        validadeChecked = "Receita"
+        validadeChecked = `<p class="blueRevenue">Receita</p>`
     }
     if(v_expense.checked) {
-        validadeChecked = "Despesa"
+        validadeChecked = `<p class="vermExpense">Despesa</p>`
     }
 
     amount.innerHTML = v_amount.value
