@@ -26,7 +26,7 @@ btn_add.addEventListener("click", () => {
         validadeChecked = `<p class="vermExpense">Despesa</p>`
     }
 
-    amount.innerHTML = v_amount.value
+    amount.innerHTML = `R$ ${v_amount.value},00`
     date.innerHTML = v_date.value
     observation.innerHTML = v_observation.value
     typeMovement.innerHTML = validadeChecked
