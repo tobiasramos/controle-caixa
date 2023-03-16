@@ -116,6 +116,8 @@ h1, h2 {
     flex-direction: column;
     margin: 30px auto;
     width: 1116px;
+    height: 159px;
+    overflow: auto;
     background-color: #ECEEF6;
 }
 
