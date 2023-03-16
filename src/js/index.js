@@ -30,5 +30,5 @@ btn_add.addEventListener("click", () => {
     date.innerHTML = v_date.value
     observation.innerHTML = v_observation.value
     typeMovement.innerHTML = validadeChecked
-    action.innerHTML = `<i class="detele" class="fas fa-trash"></i>`
+    action.innerHTML = `<i class="fas fa-trash detele"></i>`
 })
