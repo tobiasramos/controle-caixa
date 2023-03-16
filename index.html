@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Caixa</title>
+</head>
+
+<body>
+    <h1>CONTROLE DE CAIXA</h1>
+
+    <main>
+        <div class="controls">
+            <div class="movements">
+                <h2>Movimentações</h2>
+
+                <div>
+                    <div class="amountDate">
+                        <div class="amount">
+                            <label>Valor</label>
+                            <input id="amount" type="text" placeholder="Digite o valor">
+                        </div>
+
+                        <div class="date">
+                            <label>Data</label>
+                            <input id="date" type="date" placeholder="Selecione a data">
+                        </div>
+                    </div>
+
+                    <div class="observation">
+                        <label>Observação(opcional)</label>
+                        <input id="observation" type="text" placeholder="Digite a observação">
+                    </div>
+
+                    <div class="type">
+                        <label>Tipo de movimentação</label>
+                        <input id="revenue" type="checkbox" value="Receita"><span>Receita</span>
+                        <input id="expense" type="checkbox" value="Despesa"><span>Despesa</span>
+                        <button id="btn-add" class="btn-add">Adiconar</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="title">
+                    <h2>Receitas e Despesas</h2>
+                    <span>Despesas</span>
+                    <span>Receitas</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="exhibition">
+            <table id="tb">
+                <tr>
+                    <th>Valor</th>
+                    <th>Data</th>
+                    <th>Observção</th>
+                    <th>Tipo de movimentação</th>
+                    <th>Ações</th>
+                </tr>
+                <tr id="exhibition">
+
+                </tr>
+            </table>
+        </div>
+    </main>
+</body>
+
+</html>
