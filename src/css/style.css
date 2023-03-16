@@ -63,3 +63,50 @@ h1, h2 {
     border: 1px solid #7A869A;
     border-radius: 10px;
 }
+
+.movements .observation label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.movements .observation input {
+    width: 388px;
+    height: 42px;
+    border: 1px solid #7A869A;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.movements .revenue,
+.movements .expense {
+    margin-right: 10px;
+}
+
+.movements .typeMovement label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.movements .typeMovement .expense {
+    margin-left: 52px;
+}
+
+.movements .typeMovement .btn-add {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    width: 138px;
+    height: 40px;
+    font-size: 14px;
+    color: #FFFFFF;
+    border-radius: 30px;
+    background-color: #0889A3;
+    border: none;
+    margin-top: -35px;
+    margin-left: 250px;
+    cursor: pointer;
+}
