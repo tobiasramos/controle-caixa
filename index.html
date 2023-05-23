@@ -45,15 +45,21 @@
                         <label>Tipo de movimentação</label>
                         <input id="revenue" type="checkbox" value="Receita"><span>Receita</span>
                         <input id="expense" type="checkbox" value="Despesa"><span>Despesa</span>
-                        <button id="btn-add" class="btn-add">Adiconar</button>
+                        <button onclick="sum()" id="btn-add" class="btn-add">Adiconar</button>
                     </div>
                 </div>
             </div>
             <div>
                 <div class="title">
                     <h2>Receitas e Despesas</h2>
-                    <span>Despesas</span>
-                    <span>Receitas</span>
+                    <div class="vermExpense">
+                        <span>Despesas:</span>
+                        <span id="totalExpense"></span>
+                    </div>
+                    <div class="blueRevenue">
+                        <span>Receitas:</span>
+                        <span id="totalRevenue"></span>
+                    </div>
                 </div>
             </div>
         </div>

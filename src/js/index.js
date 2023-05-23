@@ -22,7 +22,7 @@ btn_add.addEventListener("click", () => {
     if (v_revenue.checked) {
         validadeChecked = `<p class="blueRevenue">Receita</p>`
     }
-    if(v_expense.checked) {
+    if (v_expense.checked) {
         validadeChecked = `<p class="vermExpense">Despesa</p>`
     }
 
@@ -32,3 +32,18 @@ btn_add.addEventListener("click", () => {
     typeMovement.innerHTML = validadeChecked
     action.innerHTML = `<i class="fas fa-trash detele"></i>`
 })
+
+let initialValueRevenue = 0
+let initialValueExpense = 0
+
+function sum() {
+    const enteredValue = parseFloat(v_amount.value)
+
+    if (!isNaN(enteredValue) && v_revenue.checked) {
+        initialValueRevenue += enteredValue
+        document.getElementById("totalRevenue").innerHTML = `R$ ${initialValueRevenue},00`
+    } else if (!isNaN(enteredValue) && v_expense.checked) {
+        initialValueExpense += enteredValue
+        document.getElementById("totalExpense").innerHTML = `R$ ${initialValueExpense},00`
+    }
+}
